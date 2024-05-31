@@ -29,9 +29,11 @@ class _SearchPageContentState extends State<SearchPageContent> {
             decoration: InputDecoration(
               contentPadding: EdgeInsets.symmetric(horizontal: 16.0),
               hintText: 'Search',
+              
               filled: true,
-              fillColor: Color.fromARGB(255, 176, 175, 175), // Grey background color
+              fillColor: Color.fromARGB(255, 207, 206, 206), // Grey background color
               border: OutlineInputBorder(
+                gapPadding: 1,
                 borderRadius: BorderRadius.circular(20.0), // Rounded corners
                 borderSide: BorderSide.none, // No border
               ),
