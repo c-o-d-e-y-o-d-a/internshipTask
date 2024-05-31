@@ -1,0 +1,4 @@
+import 'package:flutter/material.dart';
+
+Color prim = const Color.fromARGB(255, 195, 34, 36);
+Color sec = const Color.fromARGB(255, 239, 69, 111);
