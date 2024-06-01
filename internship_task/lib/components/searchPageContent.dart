@@ -9,7 +9,7 @@ class SearchPageContent extends StatefulWidget {
 
   @override
   State<SearchPageContent> createState() => _SearchPageContentState();
-}
+} 
 
 class _SearchPageContentState extends State<SearchPageContent> {
   @override
@@ -24,6 +24,7 @@ class _SearchPageContentState extends State<SearchPageContent> {
                 children: [
                 SizedBox(
           width: 260,
+          height: 40,
           child: TextField(
             
             decoration: InputDecoration(
@@ -45,8 +46,8 @@ class _SearchPageContentState extends State<SearchPageContent> {
                
                 Text('cancel',
                 style: TextStyle(
-                  fontSize:  17,
-                  color: Colors.black,
+                  fontSize:  19,
+                  color: sec,
                   fontWeight: FontWeight.w500
                 ), 
                 ),
